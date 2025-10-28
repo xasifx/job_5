@@ -19,3 +19,9 @@ body
   padding: 8px;
   font-weight: 700;
 }
+/* Note the space means the element must have BOTH classes 'Latest' and 'News' */
+.Latest.News {
+    background-color: #f8f9fa; /* Example: a light gray color */
+    padding: 20px; /* Add some padding so the content isn't right against the edges */
+    border-radius: 5px; /* Optional: adds rounded corners */
+}
